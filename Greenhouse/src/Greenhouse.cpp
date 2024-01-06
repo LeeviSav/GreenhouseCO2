@@ -25,6 +25,9 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "heap_lock_monitor.h"
+#include "DigitalIoPin.h"
+#include "ModbusRegister.h"
+#include "LiquidCrystal.h"
 
 /*****************************************************************************
  * Private types/enumerations/variables
